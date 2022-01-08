@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/alice/guru/bus. ЛР 1/src/main.cpp
+/home/alice/guru/ЛР1-bus/src/main.cpp
 iostream
 -
 iomanip

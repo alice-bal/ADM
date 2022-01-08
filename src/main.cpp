@@ -152,7 +152,7 @@ bool bfs()
 	queue <int> q;
 	// добавляем s в очередь
 	q.push(s);
-	cout << s+1;
+	// cout << s+1;
 	int visited[tops.size()];
 	for ( int i = 0; i < tops.size(); i++ )
 		visited[i] = 0;
@@ -170,7 +170,7 @@ bool bfs()
 			if ( matrix[v][neighbor] !=0 ) {
 				// если сосед не посещался
 				if ( !visited[neighbor] ) {
-					// демонстрация поиска в ширину
+					// демонстрация поиска в ширину (+строка 155)
 					// cout << " - " << neighbor+1;
 					// добавляем его в очередь
 					q.push(neighbor);
@@ -186,9 +186,6 @@ bool bfs()
 			}
 		}
 	}
-	cout << "visited: " << endl;
-	for ( int i = 0; i < tops.size(); i++ )
-		cout << i << " " << visited[i] << endl;
 	// если t не обнаружено, значит пункта назначения достичь невозможно
 	cout << endl << "Маршрут не существует" ;
 	return false;
