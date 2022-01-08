@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/alice/guru/bus. ЛР 1/src/main.cpp
+iostream
+-
+iomanip
+-
+string
+-
+vector
+-
+stdio.h
+-
+queue
+-
+
